@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="My Account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMyAccountPrompt" />
+    <TextView
+        android:text="Edit FirstName"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEditFirstNamePrompt" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:textColorHint="#b3b3b3"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@android:color/white"
+        android:textCursorDrawable="@null" 
+        android:id="@+id/etEditFirstName" />
+    <TextView
+        android:text="Edit LastName"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEditLastNamePrompt" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:textColorHint="#b3b3b3"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@android:color/white"
+        android:textCursorDrawable="@null"
+        android:id="@+id/etEditLastName" />
+    <TextView
+        android:text="Update Password"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUpdatePasswordPrompt" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:hint="Current Password"
+        android:textColorHint="#b3b3b3"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@android:color/white"
+        android:textCursorDrawable="@null"
+        android:id="@+id/etCurrentPassword" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:hint="New Password"
+        android:textColorHint="#b3b3b3"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@android:color/white"
+        android:textCursorDrawable="@null"
+        android:id="@+id/etNewPassword" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textColorHint="#b3b3b3"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@android:color/white"
+        android:textCursorDrawable="@null"
+        android:id="@+id/etConfirmPassword" />
+    <Button
+            android:text="Change profile pic"
+            android:layout_width="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnUpdateProfilePic" />
+        <Button
+            android:text="Save Changes"
+            android:layout_width="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSaveChanges" />
+        <TextView
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSavePrompt" />
+</LinearLayout>

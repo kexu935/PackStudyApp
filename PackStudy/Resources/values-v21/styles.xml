@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <!-- Inherit from the light Material Theme -->
+  <style name="DarkBlueTheme" parent="android:Theme.Material.Light">
+    <!-- Override the color of UI controls -->
+    <item name="android:windowBackground">@color/NavyBlue</item>
+    <item name="android:colorPrimary">#FFFFFF</item>
+    <item name="android:textColor">#000000</item>
+    <item name="android:textColorPrimary">@color/NavyBlue</item>
+    <item name="android:colorAccent">#FFFFFF</item>
+    <item name="android:textViewStyle">@style/tvStyle</item>
+    <item name="android:checkboxStyle">@style/custom_CheckBoxStyle</item>
+    <item name="android:textColorHint">#FFFEEE</item>
+    <item name="android:editTextStyle">@style/custom_EditTextStyle</item>
+  </style>
+  
+  <style name="tvStyle" parent="android:style/Widget.TextView">
+    <item name="android:textColor">#FFFFFF</item>
+  <item name="android:textSize">18dp</item>
+  </style>
+ 
+<style name="custom_CheckBoxStyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+     <item name="android:colorAccent">#FFFFFF</item>
+     <item name="android:textColor">#FFFFFF</item>
+     <item name="android:buttonTint">#FFFFFF</item>
+      <item name="android:textSize">18dp</item>
+</style>
+
+  <style name="custom_EditTextStyle" parent="@android:style/Widget.EditText">
+    <item name="android:textColor">#FFFFFF</item>
+  </style>
+</resources>
